@@ -1,14 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="x-ua-compatible" content="ie=edge" />
-
-    <title><%= htmlWebpackPlugin.options.title %></title>
-  </head>
-
-  <body>
-    <div id="root"></div>
-  </body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>testpanel</title>
+</head>
+<body>
+    <section class="wrapper">
+        <div class="bottom-panel">
+            <div class="btn btn-info"></div>
+            <div class="total-bet">
+                <div class="btn btn-minus"></div>
+                <div class="total-counter">
+                    <div class="coinsign"></div>
+                    <div class="coincounter">¥0000.00</div>
+                </div>
+                <div class="btn btn-plus"></div>
+            </div>
+            <div class="coin">
+                <div class="coinsign"></div>
+                <div class="coincounter">¥0000</div>
+            </div>
+            <div class="winbox">
+                <p>GOOD LUCK!</p>
+            </div>
+            <div class="turbo">
+                <div class="btn checkbox"></div>
+            </div>
+            <div class="autospin">
+                <div class="spinselect">
+                    <ul>
+                        <li class="btn autospin-option" href="#">
+                            <span class="feature-normal"></span>
+                            UNTIL FEATURE
+                        </li>
+                        <li class="btn autospin-option" href="#">25 SPIN</li>
+                        <li class="btn autospin-option" href="#">20 SPIN</li>
+                        <li class="btn autospin-option" href="#">15 SPIN</li>
+                        <li class="btn autospin-option" href="#">10 SPIN</li>
+                        <li class="btn autospin-option" href="#">5 SPIN</li>
+                    </ul>
+                </div>
+                <div class="btn btn-auto"></div>
+            </div>
+        </div>
+        <div class="btn spin">
+            <div class="sign btn"></div>
+        </div>
+    </section>
+    <script src="index.js"></script>
+</body>
 </html>
