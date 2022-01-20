@@ -1,0 +1,84 @@
+.total-bet {
+    width: 183px;
+    height: 55px;
+    margin-right: 2px; 
+    padding: 0 3px 0 3px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 14px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    background-image: url(../images/totalbet.png);
+    background-size: contain;
+    background-repeat: no-repeat;      
+}
+.coinsign {
+    width: 66px;
+    height: 12px;
+    background-image: url(../images/totalbetsign.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.coincounter {
+    height: 15px;
+    text-align: center;
+    color: #FFE500;
+}
+.btn-minus, .btn-plus {
+    width: 45px;
+    height: 45px;  
+    position: relative;     
+    background-image: url(../images/btn-minus-normal.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    &.disabled {
+        pointer-events: none;
+        background-image: url(../images/btn-minus-disable.png);
+    }
+    &:hover {
+        background-image: url(../images/btn-minus-hover.png);
+    }
+    &:active {
+        background-image: url(../images/btn-minus-click.png);
+    }
+}
+
+.btn-minus {
+    &.disabled {
+        &:after {
+            background-image: url(../images/minussign-disable.png);
+        }
+    }
+    &:after {
+        content: " ";
+        width: 19px;
+        height: 8px;
+        position: absolute;
+        top: 19px;
+        left: 13px;
+        background-image: url(../images/minussign-normal.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+}
+
+.btn-plus {
+    &.disabled {
+        &:after {
+            background-image: url(../images/plussign-disable.png);
+        }
+    }
+    &:after {
+        content: " ";
+        width: 19px;
+        height: 16px;
+        position: absolute;
+        top: 15px;
+        left: 15px;
+        background-image: url(../images/plussign-normal.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+}
