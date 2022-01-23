@@ -7,33 +7,33 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url(images/bgspin-normal.png);
+    background-image: url(../images/bgspin-normal.png);
     background-size: contain;
     background-repeat: no-repeat;
     cursor: pointer;
     
     &:hover {
-        background-image: url(images/bgspin-hover.png);
+        background-image: url(../images/bgspin-hover.png);
     }
     &:active {
-        background-image: url(images/bgspin-click.png);
+        background-image: url(../images/bgspin-click.png);
     }
     &.disabled {
-        background-image: url(images/bgspin-disable.png);
+        background-image: url(../images/bgspin-disable.png);
     }
     &.stop .sign{
         width: 80px;
         animation-name: none; 
-        background-image: url(images/stopsign-normal.png);
+        background-image: url(../images/stopsign-normal.png);
     }
     &.stop.disabled .sign{
-        background-image: url(images/stopsign-disable.png);
+        background-image: url(../images/stopsign-disable.png);
     }
 }
 .sign {
     width: 100px;
     height: 80px;
-    background-image: url(images/spinsign-normal.png);
+    background-image: url(../images/spinsign-normal.png);
     background-size: contain;
     background-repeat: no-repeat;
     animation-name: rotate; 

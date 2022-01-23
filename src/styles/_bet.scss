@@ -9,14 +9,14 @@
     font-size: 14px;
     letter-spacing: 2px;
     font-weight: bold;
-    background-image: url(images/totalbet.png);
+    background-image: url(../images/totalbet.png);
     background-size: contain;
     background-repeat: no-repeat;      
 }
 .coinsign {
     width: 66px;
     height: 12px;
-    background-image: url(images/totalbetsign.png);
+    background-image: url(../images/totalbetsign.png);
     background-size: contain;
     background-repeat: no-repeat;
 }
@@ -29,26 +29,26 @@
     width: 45px;
     height: 45px;  
     position: relative;     
-    background-image: url(images/btn-minus-normal.png);
+    background-image: url(../images/btn-minus-normal.png);
     background-size: cover;
     background-repeat: no-repeat;
     cursor: pointer;
     &.disabled {
         pointer-events: none;
-        background-image: url(images/btn-minus-disable.png);
+        background-image: url(../images/btn-minus-disable.png);
     }
     &:hover {
-        background-image: url(images/btn-minus-hover.png);
+        background-image: url(../images/btn-minus-hover.png);
     }
     &:active {
-        background-image: url(images/btn-minus-click.png);
+        background-image: url(../images/btn-minus-click.png);
     }
 }
 
 .btn-minus {
     &.disabled {
         &:after {
-            background-image: url(images/minussign-disable.png);
+            background-image: url(../images/minussign-disable.png);
         }
     }
     &:after {
@@ -58,7 +58,7 @@
         position: absolute;
         top: 19px;
         left: 13px;
-        background-image: url(images/minussign-normal.png);
+        background-image: url(../images/minussign-normal.png);
         background-size: contain;
         background-repeat: no-repeat;
     }
@@ -67,7 +67,7 @@
 .btn-plus {
     &.disabled {
         &:after {
-            background-image: url(images/plussign-disable.png);
+            background-image: url(../images/plussign-disable.png);
         }
     }
     &:after {
@@ -77,7 +77,7 @@
         position: absolute;
         top: 15px;
         left: 15px;
-        background-image: url(images/plussign-normal.png);
+        background-image: url(../images/plussign-normal.png);
         background-size: contain;
         background-repeat: no-repeat;
     }

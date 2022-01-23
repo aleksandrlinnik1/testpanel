@@ -6,7 +6,7 @@ const wrapper = findEl('.wrapper');
     const audioCtx = new AudioContext();
 
 
-import urlSounds from 'sounds/bclick.wav';
+import urlSounds from '../sounds/bclick.wav';
 const buttonSound = new Audio(urlSounds);
 
 export function initSounds() {

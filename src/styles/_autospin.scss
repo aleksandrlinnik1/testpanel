@@ -19,7 +19,7 @@
     position: absolute;
     top: 10px;
     right: 3px;
-    background-image: url(images/spinselect.png);
+    background-image: url(../images/spinselect.png);
     background-size: cover;
     background-repeat: no-repeat;
     transition: .9s linear;
@@ -36,14 +36,14 @@
         .feature-normal {
             width: 16px;
             height: 16px;
-            background-image: url(images/feature-normal.png);
+            background-image: url(../images/feature-normal.png);
             background-repeat: no-repeat;
             background-size: contain;
         }
         &:hover  {
             color: #FFF; 
             .feature-normal {
-                background-image: url(images/feature-hover.png);
+                background-image: url(../images/feature-hover.png);
             } 
         }
     }
@@ -57,14 +57,14 @@
     align-items: center;
     justify-content: left;
     box-sizing: border-box;
-    background-image: url(images/auto-normal.png);
+    background-image: url(../images/auto-normal.png);
     background-size: contain;
     background-repeat: no-repeat;
     &:hover {
-        background-image: url(images/auto-hover.png);
+        background-image: url(../images/auto-hover.png);
     }
     &:active {
-        background-image: url(images/auto-click.png);
+        background-image: url(../images/auto-click.png);
     }
     &:after {
         content: " ";
@@ -73,11 +73,11 @@
         position: absolute;
         top: 20px;
         left: 35px;
-        background-image: url(images/fontauto-normal.png);
+        background-image: url(../images/fontauto-normal.png);
         background-size: contain;
         background-repeat: no-repeat;
     }
     &.stop:after {
-        background-image: url(images/fontstop.png);
+        background-image: url(../images/fontstop.png);
     }
 }
