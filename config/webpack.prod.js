@@ -10,8 +10,8 @@ module.exports = merge(common, {
   devtool: false,
   output: {
     path: paths.build,
-    publicPath: '/testpanel/dist',
-    filename: 'js/[name].[contenthash].bundle.js',
+    publicPath: '/',
+    filename: '[name].[contenthash].bundle.js',
   },
   module: {
     rules: [
@@ -36,7 +36,7 @@ module.exports = merge(common, {
   plugins: [
     // Extracts CSS into separate files
     new MiniCssExtractPlugin({
-      filename: 'styles/[name].[contenthash].css',
+      filename: '[name].[contenthash].css',
       chunkFilename: '[id].css',
     }),
   ],
