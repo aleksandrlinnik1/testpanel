@@ -2,13 +2,13 @@
     width: 55px;
     height: 55px;
     position: relative;       
-    background-image: url(../images/btn-info-normal.png);
+    background-image: url(images/btn-info-normal.png);
     background-size: cover;
     background-repeat: no-repeat;
     cursor: pointer;
 
     &:hover {
-        background-image: url(../images/btn-info-hover.png);
+        background-image: url(images/btn-info-hover.png);
     }
 
     &:after {
@@ -18,7 +18,7 @@
         position: absolute;
         top: 13px;
         left: 22px;
-        background-image: url(../images/info-sign.png);
+        background-image: url(images/info-sign.png);
         background-size: contain;
         background-repeat: no-repeat;
     }

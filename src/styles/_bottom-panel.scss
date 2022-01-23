@@ -6,7 +6,7 @@
     position: relative;
     display: flex;
     align-items: center;
-    background-image: url(../images/main.png);
+    background-image: url(images/main.png);
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -22,13 +22,13 @@
     letter-spacing: 2px;
     font-weight: bold;
     box-sizing: border-box;
-    background-image: url(../images/coin.png);
+    background-image: url(images/coin.png);
     background-size: contain;
     background-repeat: no-repeat;
     .coinsign {
         width: 30px;
         height: 50%;
-        background-image: url(../images/coinsign.png);
+        background-image: url(images/coinsign.png);
         background-size: contain;
         background-repeat: no-repeat;
     }
@@ -47,7 +47,7 @@
     letter-spacing: 2px;
     font-weight: bold;
     color: #FFE500;
-    background-image: url(../images/winbox.png);
+    background-image: url(images/winbox.png);
     background-size: contain;
     background-repeat: no-repeat;
 } 
