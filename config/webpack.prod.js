@@ -9,7 +9,7 @@ module.exports = merge(common, {
   devtool: false,
   output: {
     path: paths.build,
-    publicPath: '/',
+    publicPath: 'testpanel/dist/',
     filename: 'js/[name].[contenthash].bundle.js',
   },
   module: {
